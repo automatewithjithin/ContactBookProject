@@ -7,7 +7,7 @@
             ContactService service = new ContactService();
             while (true)
             {
-                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
+                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
                 Console.WriteLine("Main Menu");
                 Console.WriteLine("1: Add Contact");
                 Console.WriteLine("2: Show All Contacts");
@@ -15,7 +15,7 @@
                 Console.WriteLine("4: Update Contact");
                 Console.WriteLine("5: Delete Contact");
                 Console.WriteLine("0: Exit");
-                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
                 var choice = Console.ReadLine();
                 switch (choice)
                 {
